@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "Barimax Shelly 1 Plus",
   "pluginType": "platform",
   "singular": true,
   "schema": {
@@ -10,6 +10,15 @@
         "type": "string",
         "required": true,
         "default": "Example Dynamic Platform"
+      },
+      "devices": {
+        "title": "Shellys",
+        "type": "array",
+        "required": true,
+        "items": {
+          "title": "ID",
+          "type": "string"
+        }
       }
     }
   }
